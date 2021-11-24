@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300&display=swap');
+
+html, body
+{
+	margin: 0;
+}
+
+body
+{
+	padding-bottom: 50px; 
+}
+#banderole
+{
+	width: 100%;
+	height: 125px;
+	background-color: blue;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	display: flex;
+	align-items: center;
+}
+
+#banderole
+{
+    background: linear-gradient(270deg, #424242, #000000);
+    background-size: 400% 400%;
+}
+
+#banderole h1
+{
+	color: white;
+	margin: 0;
+	margin-left: 50px;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#banderole img
+{
+	width: 100px ; height: 85px;
+	margin-left: 50px;
+}
+#qui_sommes_nous
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 95%;
+	
+	margin-left: 2.5%;
+	margin-top: 50px;
+
+	padding: 25px 0;
+	
+	color: white;
+	font-family: 'Roboto', sans-serif;
+
+	background-color: #154360;
+	border-radius: 10px;
+
+	transition: transform .5s;
+}
+
+#qui_sommes_nous h2
+{
+	font-size: 175%;
+}
+
+#qui_sommes_nous p 
+{
+	width: 90%;
+	font-size: 125%;
+	text-align: justify;
+}
+
+#EQ
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 95%;
+
+	margin-left: 2.5%;
+	margin-top: 75px;
+
+	padding: 30px 0;
+
+	font-family: 'Roboto', sans-serif;
+
+	border-radius: 10px;
+	background-color: #1A1B39;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+	transition: transform .5s;
+}
+
+#EQ #partie1 h2
+{
+	font-size: 175%;
+}
+
+
+#EQ #partie1 .texte
+{
+	width: 60%;
+}
+
+#EQ #partie1 p 
+{
+	font-size: 125%;
+	text-align: justify;
+}
+
+#EQ #partie1
+{
+	display: flex;
+	justify-content: space-around;
+
+	width: 100%;
+}
+
+#EQ #partie1 #logoEQ
+{
+	width: 200px ; height: auto;
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.4), 0 6px 20px 0 rgba(255, 255, 255, 0.4);
+}
+
+#EQ:hover, #qui_sommes_nous:hover
+{
+	-ms-transform: scale(1.05); /* IE 9 */
+	-webkit-transform: scale(1.05); /* Safari 3-8 */
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+#equation_manuscrite
+{
+	height: 100px
+}
+
+#equation_num
+{
+	height: 100px
+}
+
+
+#fleche
+{
+	width: 100px ; height: 30px;
+}
+
+#partie2
+{
+	width: 55%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
